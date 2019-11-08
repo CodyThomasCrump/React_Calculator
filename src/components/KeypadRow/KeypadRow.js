@@ -4,7 +4,7 @@ import './KeypadRow.css';
 class KeypadRow extends Component {
     render() {
         return (
-            <div class="KeypadRow">
+            <div className="KeypadRow">
                 {this.props.children}
             </div> 
         );
